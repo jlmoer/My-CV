@@ -1,0 +1,187 @@
+
+/********** GENERAL ***********/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Police */
+@font-face {
+    font-family: "poppins";
+    src: url('../POPPINS.ttf');
+}
+
+/* taille par défaut en rem */
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-family: "poppins";
+    display: grid;
+    }
+
+
+/* ********** NAVBAR ********** */
+
+#navbar {
+    /*position: fixed;*/
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #0475ba;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#logo {
+    float: left;
+    font-weight: bold;
+    margin-right: 70px;
+}
+#navbar li {
+    list-style-type: none;
+    float: left;
+    padding-right: 40px;
+}
+
+/* ********** PARTIE DE L'IMAGE ********** */
+
+img {
+    border-radius: 100px;
+    height: 170px;
+    width: 170px;
+}
+.box2 {
+    background-color: white;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+/* ********** PRESENTATION ********** */
+
+.box3 {
+    background-color: #0475ba;
+    color: white;
+    border: solid color black;
+    padding:70px 0 70px 450px;
+    justify-content: space-evenly;
+}
+.formations {
+    padding: 70px 0 70px 450px;
+    background-color: #0475ba;
+    color: white;
+}
+.box5 {
+    padding: 70px 0 70px 450px;
+}
+h2 {
+    color: #0475ba;
+}
+footer {
+    font-family: "poppins";
+}
+.experiences {
+    padding: 70px 0 70px 450px;
+    justify-content: space-evenly;
+}
+.présentation {
+    color: white;
+}
+.passions {
+    color: #0475ba;
+}
+footer {
+    background-color: #0475ba;
+    padding: 4rem;
+    color: white;
+}
+.box6 {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    margin-right: 70rem;
+}
+/* .stagiaire {
+    align-items: flex-end;
+} */
+
+/* .benevole {
+    justify-content: space-around;
+} */
+
+
+/* .stagiaire {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.exp {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 15rem 0 0;
+    padding-top: 2rem;
+}
+
+.formations2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 15rem 0 0;
+}
+
+.liste {
+    margin-left: 3rem;
+}
+
+.hobbies {
+    padding-top: 1rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+    
+    body {
+        background-color: white;
+        text-align: left;
+        padding-right: 400px;
+    }
+    
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    main box3 {
+        margin: 0 40px 0 0;
+       }
+
+    .experiences {
+        text-align: left;
+        margin-left: auto;
+    }
+
+    liste > li {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}

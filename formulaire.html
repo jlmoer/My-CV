@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/formulaire.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <ul>
+                <li id="logo"><a href="#">Jean-Léonard MOERDIJK</a></li>
+                <li><a href="/index.html">Profil</a></li>
+                <li><a href="/index.html">Expériences</a></li>
+                <li><a href="/index.html">Formations</a></li>
+                <li><a href="/formulaire.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="box">
+        <h1>Formulaire de contact</h1>
+            <form>
+                <div class="name">
+                <label for="name">Nom</label>
+                <input
+                    type="text"
+                    id="name"
+                    required
+                    placeholder="Votre nom"
+                />
+                </div>
+                <div class="email">
+                <label for="email">Email</label>
+                <input 
+                    type="text"
+                    id="email"
+                    required
+                    placeholder="Votre email"
+                />
+                </div>
+                <div class="subject">
+                <label for="subject">Sujet</label>
+                <input 
+                    type="text"
+                    id="subject"
+                    required
+                    placeholder="Sujet de votre message"
+                    />
+                </div>
+                <div class="message">
+                <label for="message">Message</label>
+                <textarea 
+                    name="" 
+                    id="message" 
+                    cols="30" 
+                    rows="10">
+                Votre message...
+                </textarea>
+                </div>
+                <div class="send">
+                <input
+                    class="sand"
+                    type="submit" 
+                    name="Envoyer">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
